@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		32A0EF852940DF4D0031EEFF /* DietTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0EF842940DF4D0031EEFF /* DietTrackerApp.swift */; };
-		32A0EF872940DF4D0031EEFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0EF862940DF4D0031EEFF /* ContentView.swift */; };
+		32A0EF872940DF4D0031EEFF /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0EF862940DF4D0031EEFF /* MainPage.swift */; };
 		32A0EF892940DF4E0031EEFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A0EF882940DF4E0031EEFF /* Assets.xcassets */; };
 		32A0EF8C2940DF4E0031EEFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A0EF8B2940DF4E0031EEFF /* Preview Assets.xcassets */; };
 		32A0EF962940DF4E0031EEFF /* DietTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0EF952940DF4E0031EEFF /* DietTrackerTests.swift */; };
 		32A0EFA02940DF4E0031EEFF /* DietTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0EF9F2940DF4E0031EEFF /* DietTrackerUITests.swift */; };
 		32A0EFA22940DF4E0031EEFF /* DietTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0EFA12940DF4E0031EEFF /* DietTrackerUITestsLaunchTests.swift */; };
+		32A0EFB02940E6B30031EEFF /* MainPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0EFAF2940E6B30031EEFF /* MainPageViewModel.swift */; };
+		32A0EFB22940E70F0031EEFF /* ActualPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0EFB12940E70F0031EEFF /* ActualPlan.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		32A0EF812940DF4D0031EEFF /* DietTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DietTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A0EF842940DF4D0031EEFF /* DietTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietTrackerApp.swift; sourceTree = "<group>"; };
-		32A0EF862940DF4D0031EEFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		32A0EF862940DF4D0031EEFF /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
 		32A0EF882940DF4E0031EEFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32A0EF8B2940DF4E0031EEFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		32A0EF912940DF4E0031EEFF /* DietTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DietTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,8 @@
 		32A0EF9B2940DF4E0031EEFF /* DietTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DietTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A0EF9F2940DF4E0031EEFF /* DietTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietTrackerUITests.swift; sourceTree = "<group>"; };
 		32A0EFA12940DF4E0031EEFF /* DietTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		32A0EFAF2940E6B30031EEFF /* MainPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewModel.swift; sourceTree = "<group>"; };
+		32A0EFB12940E70F0031EEFF /* ActualPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualPlan.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				32A0EF842940DF4D0031EEFF /* DietTrackerApp.swift */,
-				32A0EF862940DF4D0031EEFF /* ContentView.swift */,
+				32A0EFB12940E70F0031EEFF /* ActualPlan.swift */,
+				32A0EFAE2940E6930031EEFF /* MainPage */,
 				32A0EF882940DF4E0031EEFF /* Assets.xcassets */,
 				32A0EF8A2940DF4E0031EEFF /* Preview Content */,
 			);
@@ -125,6 +130,15 @@
 				32A0EFA12940DF4E0031EEFF /* DietTrackerUITestsLaunchTests.swift */,
 			);
 			path = DietTrackerUITests;
+			sourceTree = "<group>";
+		};
+		32A0EFAE2940E6930031EEFF /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				32A0EF862940DF4D0031EEFF /* MainPage.swift */,
+				32A0EFAF2940E6B30031EEFF /* MainPageViewModel.swift */,
+			);
+			path = MainPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32A0EF872940DF4D0031EEFF /* ContentView.swift in Sources */,
+				32A0EFB22940E70F0031EEFF /* ActualPlan.swift in Sources */,
+				32A0EFB02940E6B30031EEFF /* MainPageViewModel.swift in Sources */,
+				32A0EF872940DF4D0031EEFF /* MainPage.swift in Sources */,
 				32A0EF852940DF4D0031EEFF /* DietTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
