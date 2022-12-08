@@ -6,8 +6,12 @@
 //
 
 import SwiftUI
+import HealthKit
 
 struct MainPage: View {
+    
+    public let healthStore = HKHealthStore()
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -16,6 +20,24 @@ struct MainPage: View {
             Text("Hello, world!")
         }
         .padding()
+        .onAppear {
+            if HKHealthStore.isHealthDataAvailable() {
+                requestPermissions()
+            }
+        }
+    }
+    
+    public func requestPermissions() {
+        let readDataTypes : Set = [HKObjectType.quantityType(forIdentifier: HKQuantityTypeIdentifier.bodyMass)!]
+        
+        healthStore.requestAuthorization(toShare: nil, read: readDataTypes, completion: { (success, error) in
+            if success {
+                print("Authorization complete")
+            } else {
+                print("Authorization error: \(String(describing: error?.localizedDescription))")
+            }
+        })
+        
     }
 }
 
