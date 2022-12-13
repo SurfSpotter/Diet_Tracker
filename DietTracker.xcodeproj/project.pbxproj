@@ -91,6 +91,8 @@
 		32471CB52949059E00C79D13 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				32D43F0D29411BAA00E6C4A1 /* DietTracker.entitlements */,
+				32A0EF842940DF4D0031EEFF /* DietTrackerApp.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -220,8 +222,6 @@
 		32A0EF832940DF4D0031EEFF /* DietTracker */ = {
 			isa = PBXGroup;
 			children = (
-				32D43F0D29411BAA00E6C4A1 /* DietTracker.entitlements */,
-				32A0EF842940DF4D0031EEFF /* DietTrackerApp.swift */,
 				32471CB52949059E00C79D13 /* Core */,
 				32471CB6294905A200C79D13 /* Data */,
 				32471CB7294905B900C79D13 /* Domain */,
@@ -574,7 +574,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = DietTracker/DietTracker.entitlements;
+				CODE_SIGN_ENTITLEMENTS = DietTracker/Core/DietTracker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DietTracker/Preview Content\"";
@@ -604,7 +604,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = DietTracker/DietTracker.entitlements;
+				CODE_SIGN_ENTITLEMENTS = DietTracker/Core/DietTracker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DietTracker/Preview Content\"";
