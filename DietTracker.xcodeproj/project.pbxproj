@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32471CBD294906D100C79D13 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32471CBC294906D100C79D13 /* Todo.swift */; };
-		32471CC22949104B00C79D13 /* TodoAPIEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32471CC12949104B00C79D13 /* TodoAPIEntity.swift */; };
-		32471CC52949110E00C79D13 /* TodoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32471CC42949110E00C79D13 /* TodoRepository.swift */; };
-		32471CC7294911CE00C79D13 /* TodoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32471CC6294911CE00C79D13 /* TodoDataSource.swift */; };
-		32471CC92949126D00C79D13 /* TodoAPIImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32471CC82949126D00C79D13 /* TodoAPIImpl.swift */; };
-		32471CCB294912CF00C79D13 /* GetTodosUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32471CCA294912CF00C79D13 /* GetTodosUseCase.swift */; };
-		32471CCF294913C900C79D13 /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32471CCE294913C900C79D13 /* TodoListViewModel.swift */; };
-		32471CD1294913F000C79D13 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32471CD0294913F000C79D13 /* TodoListView.swift */; };
+		32471CBD294906D100C79D13 /* Intake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32471CBC294906D100C79D13 /* Intake.swift */; };
+		32471CC22949104B00C79D13 /* IntakeAPIEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32471CC12949104B00C79D13 /* IntakeAPIEntity.swift */; };
+		32471CC52949110E00C79D13 /* IntakeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32471CC42949110E00C79D13 /* IntakeRepository.swift */; };
+		32471CC7294911CE00C79D13 /* IntakeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32471CC6294911CE00C79D13 /* IntakeDataSource.swift */; };
+		32471CC92949126D00C79D13 /* IntakeApiImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32471CC82949126D00C79D13 /* IntakeApiImpl.swift */; };
+		32471CCB294912CF00C79D13 /* GetIntakesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32471CCA294912CF00C79D13 /* GetIntakesUseCase.swift */; };
+		32471CCF294913C900C79D13 /* IntakeListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32471CCE294913C900C79D13 /* IntakeListInteractor.swift */; };
+		32471CD1294913F000C79D13 /* IntakeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32471CD0294913F000C79D13 /* IntakeListView.swift */; };
 		32471CD32949144E00C79D13 /* LocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32471CD22949144E00C79D13 /* LocalDataSource.swift */; };
 		32A0EF852940DF4D0031EEFF /* DietTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0EF842940DF4D0031EEFF /* DietTrackerApp.swift */; };
 		32A0EF892940DF4E0031EEFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A0EF882940DF4E0031EEFF /* Assets.xcassets */; };
@@ -42,14 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		32471CBC294906D100C79D13 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
-		32471CC12949104B00C79D13 /* TodoAPIEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAPIEntity.swift; sourceTree = "<group>"; };
-		32471CC42949110E00C79D13 /* TodoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoRepository.swift; sourceTree = "<group>"; };
-		32471CC6294911CE00C79D13 /* TodoDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDataSource.swift; sourceTree = "<group>"; };
-		32471CC82949126D00C79D13 /* TodoAPIImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAPIImpl.swift; sourceTree = "<group>"; };
-		32471CCA294912CF00C79D13 /* GetTodosUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTodosUseCase.swift; sourceTree = "<group>"; };
-		32471CCE294913C900C79D13 /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
-		32471CD0294913F000C79D13 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		32471CBC294906D100C79D13 /* Intake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intake.swift; sourceTree = "<group>"; };
+		32471CC12949104B00C79D13 /* IntakeAPIEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntakeAPIEntity.swift; sourceTree = "<group>"; };
+		32471CC42949110E00C79D13 /* IntakeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntakeRepository.swift; sourceTree = "<group>"; };
+		32471CC6294911CE00C79D13 /* IntakeDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntakeDataSource.swift; sourceTree = "<group>"; };
+		32471CC82949126D00C79D13 /* IntakeApiImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntakeApiImpl.swift; sourceTree = "<group>"; };
+		32471CCA294912CF00C79D13 /* GetIntakesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetIntakesUseCase.swift; sourceTree = "<group>"; };
+		32471CCE294913C900C79D13 /* IntakeListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntakeListInteractor.swift; sourceTree = "<group>"; };
+		32471CD0294913F000C79D13 /* IntakeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntakeListView.swift; sourceTree = "<group>"; };
 		32471CD22949144E00C79D13 /* LocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataSource.swift; sourceTree = "<group>"; };
 		32A0EF812940DF4D0031EEFF /* DietTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DietTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A0EF842940DF4D0031EEFF /* DietTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietTrackerApp.swift; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 		32471CB8294905C200C79D13 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				32471CCC294913A600C79D13 /* Todo */,
+				32471CCC294913A600C79D13 /* Intakes */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -123,7 +123,7 @@
 		32471CB92949060300C79D13 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				32471CBC294906D100C79D13 /* Todo.swift */,
+				32471CBC294906D100C79D13 /* Intake.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -131,7 +131,7 @@
 		32471CBA2949061400C79D13 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
-				32471CC42949110E00C79D13 /* TodoRepository.swift */,
+				32471CC42949110E00C79D13 /* IntakeRepository.swift */,
 				32471CBE29490FF000C79D13 /* DataSource */,
 			);
 			path = Repository;
@@ -140,7 +140,7 @@
 		32471CBB2949061B00C79D13 /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
-				32471CCA294912CF00C79D13 /* GetTodosUseCase.swift */,
+				32471CCA294912CF00C79D13 /* GetIntakesUseCase.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -148,7 +148,7 @@
 		32471CBE29490FF000C79D13 /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
-				32471CC6294911CE00C79D13 /* TodoDataSource.swift */,
+				32471CC6294911CE00C79D13 /* IntakeDataSource.swift */,
 				32471CC3294910CC00C79D13 /* DB */,
 				32471CBF2949101A00C79D13 /* API */,
 			);
@@ -158,7 +158,7 @@
 		32471CBF2949101A00C79D13 /* API */ = {
 			isa = PBXGroup;
 			children = (
-				32471CC82949126D00C79D13 /* TodoAPIImpl.swift */,
+				32471CC82949126D00C79D13 /* IntakeApiImpl.swift */,
 				32471CC02949102200C79D13 /* Entity */,
 			);
 			path = API;
@@ -167,7 +167,7 @@
 		32471CC02949102200C79D13 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
-				32471CC12949104B00C79D13 /* TodoAPIEntity.swift */,
+				32471CC12949104B00C79D13 /* IntakeAPIEntity.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -180,21 +180,21 @@
 			path = DB;
 			sourceTree = "<group>";
 		};
-		32471CCC294913A600C79D13 /* Todo */ = {
+		32471CCC294913A600C79D13 /* Intakes */ = {
 			isa = PBXGroup;
 			children = (
-				32471CCD294913B100C79D13 /* TodoList */,
+				32471CCD294913B100C79D13 /* IntakeList */,
 			);
-			path = Todo;
+			path = Intakes;
 			sourceTree = "<group>";
 		};
-		32471CCD294913B100C79D13 /* TodoList */ = {
+		32471CCD294913B100C79D13 /* IntakeList */ = {
 			isa = PBXGroup;
 			children = (
-				32471CCE294913C900C79D13 /* TodoListViewModel.swift */,
-				32471CD0294913F000C79D13 /* TodoListView.swift */,
+				32471CCE294913C900C79D13 /* IntakeListInteractor.swift */,
+				32471CD0294913F000C79D13 /* IntakeListView.swift */,
 			);
-			path = TodoList;
+			path = IntakeList;
 			sourceTree = "<group>";
 		};
 		32A0EF782940DF4D0031EEFF = {
@@ -410,15 +410,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				32471CD32949144E00C79D13 /* LocalDataSource.swift in Sources */,
-				32471CCF294913C900C79D13 /* TodoListViewModel.swift in Sources */,
-				32471CC92949126D00C79D13 /* TodoAPIImpl.swift in Sources */,
-				32471CC7294911CE00C79D13 /* TodoDataSource.swift in Sources */,
-				32471CC22949104B00C79D13 /* TodoAPIEntity.swift in Sources */,
-				32471CC52949110E00C79D13 /* TodoRepository.swift in Sources */,
-				32471CD1294913F000C79D13 /* TodoListView.swift in Sources */,
-				32471CCB294912CF00C79D13 /* GetTodosUseCase.swift in Sources */,
+				32471CCF294913C900C79D13 /* IntakeListInteractor.swift in Sources */,
+				32471CC92949126D00C79D13 /* IntakeApiImpl.swift in Sources */,
+				32471CC7294911CE00C79D13 /* IntakeDataSource.swift in Sources */,
+				32471CC22949104B00C79D13 /* IntakeAPIEntity.swift in Sources */,
+				32471CC52949110E00C79D13 /* IntakeRepository.swift in Sources */,
+				32471CD1294913F000C79D13 /* IntakeListView.swift in Sources */,
+				32471CCB294912CF00C79D13 /* GetIntakesUseCase.swift in Sources */,
 				32A0EF852940DF4D0031EEFF /* DietTrackerApp.swift in Sources */,
-				32471CBD294906D100C79D13 /* Todo.swift in Sources */,
+				32471CBD294906D100C79D13 /* Intake.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

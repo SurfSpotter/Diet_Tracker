@@ -8,10 +8,10 @@
 import Foundation
 
 @MainActor
-class TodoListViewModel: ObservableObject {
+class IntakeListInteractor: ObservableObject {
     
-    var getTodosUseCase = GetTodosUseCase(repo: TodoRepositoryImpl(dataSource: TodoAPIImpl()))
-    @Published var todos: [Todo] = []
+    var getTodosUseCase = GetIntakesUseCase(repo: IntakeRepositoryImpl(dataSource: IntakeLocalDBImpl()))
+    @Published var todos: [Intake] = []
     @Published var errorMessage = ""
     @Published var hasError = false
     

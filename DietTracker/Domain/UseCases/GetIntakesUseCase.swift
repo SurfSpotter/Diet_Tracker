@@ -11,14 +11,14 @@ enum UseCaseError: Error{
     case networkError, decodingError
 }
 
-protocol GetTodos {
-    func execute() async -> Result<[Todo], UseCaseError>
+protocol GetIntakes {
+    func execute() async -> Result<[Intake], UseCaseError>
 }
 
-struct GetTodosUseCase: GetTodos{
-    var repo: TodoRepository
+struct GetIntakesUseCase: GetIntakes{
+    var repo: IntakeRepository
     
-    func execute() async -> Result<[Todo], UseCaseError>{
+    func execute() async -> Result<[Intake], UseCaseError>{
         do{
             let todos = try await repo.getTodos()
             return .success(todos)

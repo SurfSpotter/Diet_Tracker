@@ -7,17 +7,17 @@
 
 import Foundation
 
-protocol TodoRepository{
+protocol IntakeRepository{
     
-    func getTodos() async throws -> [Todo]
+    func getTodos() async throws -> [Intake]
     
 }
 
-struct TodoRepositoryImpl: TodoRepository{
+struct IntakeRepositoryImpl: IntakeRepository{
     
-    var dataSource: TodoDataSource
+    var dataSource: IntakeDataSource
     
-    func getTodos() async throws -> [Todo] {
+    func getTodos() async throws -> [Intake] {
         let _todos =  try await dataSource.getTodos()
         return _todos
     }

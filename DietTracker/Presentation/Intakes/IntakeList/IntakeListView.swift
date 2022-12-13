@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct TodoListView: View {
-    @StateObject var vm = TodoListViewModel()
+struct IntakeListView: View {
+    @StateObject var vm = IntakeListInteractor()
     
     
-    fileprivate func listRow(_ todo: Todo) -> some View {
+    fileprivate func listRow(_ todo: Intake) -> some View {
         HStack{
             Image(systemName: todo.isCompleted ? "checkmark.circle": "circle")
                 .foregroundColor(todo.isCompleted ? .green : .red)
@@ -43,7 +43,7 @@ struct TodoListView: View {
 struct TodoListView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView{
-        TodoListView()
+        IntakeListView()
         }.navigationViewStyle(StackNavigationViewStyle())
     }
 }

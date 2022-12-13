@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct TodoAPIEntity: Codable {
+//Struct of json file
+struct IntakeAPIEntity: Codable {
     let id: Int
     let title: String
     let completed: Bool

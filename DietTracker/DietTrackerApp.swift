@@ -12,7 +12,7 @@ import HealthKit
 struct DietTrackerApp: App {
     var body: some Scene {
         WindowGroup {
-            TodoListView()
+            IntakeListView()
         }
     }
 }
