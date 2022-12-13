@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
+import HealthKit
 
 @main
 struct DietTrackerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainPage()
         }
     }
 }

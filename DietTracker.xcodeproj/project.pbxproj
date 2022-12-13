@@ -8,12 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		32A0EF852940DF4D0031EEFF /* DietTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0EF842940DF4D0031EEFF /* DietTrackerApp.swift */; };
-		32A0EF872940DF4D0031EEFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0EF862940DF4D0031EEFF /* ContentView.swift */; };
+		32A0EF872940DF4D0031EEFF /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0EF862940DF4D0031EEFF /* MainPage.swift */; };
 		32A0EF892940DF4E0031EEFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A0EF882940DF4E0031EEFF /* Assets.xcassets */; };
 		32A0EF8C2940DF4E0031EEFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A0EF8B2940DF4E0031EEFF /* Preview Assets.xcassets */; };
 		32A0EF962940DF4E0031EEFF /* DietTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0EF952940DF4E0031EEFF /* DietTrackerTests.swift */; };
 		32A0EFA02940DF4E0031EEFF /* DietTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0EF9F2940DF4E0031EEFF /* DietTrackerUITests.swift */; };
 		32A0EFA22940DF4E0031EEFF /* DietTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0EFA12940DF4E0031EEFF /* DietTrackerUITestsLaunchTests.swift */; };
+		32A0EFB02940E6B30031EEFF /* MainPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0EFAF2940E6B30031EEFF /* MainPageViewModel.swift */; };
+		32A0EFB22940E70F0031EEFF /* ActualPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0EFB12940E70F0031EEFF /* ActualPlan.swift */; };
+		32D43F4D2941FF6800E6C4A1 /* LogStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D43F4C2941FF6800E6C4A1 /* LogStatus.swift */; };
+		32D43F4F2941FFBB00E6C4A1 /* LocalDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D43F4E2941FFBB00E6C4A1 /* LocalDate.swift */; };
+		32D43F512942000300E6C4A1 /* IntakePlanType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D43F502942000300E6C4A1 /* IntakePlanType.swift */; };
+		32D43F53294200AA00E6C4A1 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D43F52294200AA00E6C4A1 /* Time.swift */; };
+		32D43F562942026D00E6C4A1 /* LocalNotificationsEconomist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D43F552942026D00E6C4A1 /* LocalNotificationsEconomist.swift */; };
+		32D43F58294202B700E6C4A1 /* AfterMealReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D43F57294202B700E6C4A1 /* AfterMealReminder.swift */; };
+		32D43F5A294202CC00E6C4A1 /* MealReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D43F59294202CC00E6C4A1 /* MealReminder.swift */; };
+		32D43F5C294202DE00E6C4A1 /* SecondReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D43F5B294202DE00E6C4A1 /* SecondReminder.swift */; };
+		32D43F5E294202F000E6C4A1 /* FirstReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D43F5D294202F000E6C4A1 /* FirstReminder.swift */; };
+		32D43F602942030500E6C4A1 /* MealRemindersPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D43F5F2942030500E6C4A1 /* MealRemindersPreset.swift */; };
+		32D43F622942035700E6C4A1 /* AllMealReminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D43F612942035700E6C4A1 /* AllMealReminders.swift */; };
+		32D43F642942036E00E6C4A1 /* RemindersSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D43F632942036E00E6C4A1 /* RemindersSchedule.swift */; };
+		32D43F67294203FF00E6C4A1 /* FoodIntakePlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D43F66294203FF00E6C4A1 /* FoodIntakePlan.swift */; };
+		32D43F692942042600E6C4A1 /* FoodIntakeLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D43F682942042600E6C4A1 /* FoodIntakeLog.swift */; };
+		32D43F6C2942046300E6C4A1 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D43F6B2942046300E6C4A1 /* DataManager.swift */; };
+		32D43F6E2942047400E6C4A1 /* MealManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D43F6D2942047400E6C4A1 /* MealManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +54,7 @@
 /* Begin PBXFileReference section */
 		32A0EF812940DF4D0031EEFF /* DietTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DietTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A0EF842940DF4D0031EEFF /* DietTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietTrackerApp.swift; sourceTree = "<group>"; };
-		32A0EF862940DF4D0031EEFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		32A0EF862940DF4D0031EEFF /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
 		32A0EF882940DF4E0031EEFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32A0EF8B2940DF4E0031EEFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		32A0EF912940DF4E0031EEFF /* DietTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DietTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +62,25 @@
 		32A0EF9B2940DF4E0031EEFF /* DietTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DietTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A0EF9F2940DF4E0031EEFF /* DietTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietTrackerUITests.swift; sourceTree = "<group>"; };
 		32A0EFA12940DF4E0031EEFF /* DietTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		32A0EFAF2940E6B30031EEFF /* MainPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewModel.swift; sourceTree = "<group>"; };
+		32A0EFB12940E70F0031EEFF /* ActualPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualPlan.swift; sourceTree = "<group>"; };
+		32D43F0D29411BAA00E6C4A1 /* DietTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DietTracker.entitlements; sourceTree = "<group>"; };
+		32D43F4C2941FF6800E6C4A1 /* LogStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogStatus.swift; sourceTree = "<group>"; };
+		32D43F4E2941FFBB00E6C4A1 /* LocalDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDate.swift; sourceTree = "<group>"; };
+		32D43F502942000300E6C4A1 /* IntakePlanType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntakePlanType.swift; sourceTree = "<group>"; };
+		32D43F52294200AA00E6C4A1 /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		32D43F552942026D00E6C4A1 /* LocalNotificationsEconomist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationsEconomist.swift; sourceTree = "<group>"; };
+		32D43F57294202B700E6C4A1 /* AfterMealReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterMealReminder.swift; sourceTree = "<group>"; };
+		32D43F59294202CC00E6C4A1 /* MealReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealReminder.swift; sourceTree = "<group>"; };
+		32D43F5B294202DE00E6C4A1 /* SecondReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondReminder.swift; sourceTree = "<group>"; };
+		32D43F5D294202F000E6C4A1 /* FirstReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstReminder.swift; sourceTree = "<group>"; };
+		32D43F5F2942030500E6C4A1 /* MealRemindersPreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealRemindersPreset.swift; sourceTree = "<group>"; };
+		32D43F612942035700E6C4A1 /* AllMealReminders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMealReminders.swift; sourceTree = "<group>"; };
+		32D43F632942036E00E6C4A1 /* RemindersSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersSchedule.swift; sourceTree = "<group>"; };
+		32D43F66294203FF00E6C4A1 /* FoodIntakePlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodIntakePlan.swift; sourceTree = "<group>"; };
+		32D43F682942042600E6C4A1 /* FoodIntakeLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodIntakeLog.swift; sourceTree = "<group>"; };
+		32D43F6B2942046300E6C4A1 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		32D43F6D2942047400E6C4A1 /* MealManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +131,13 @@
 		32A0EF832940DF4D0031EEFF /* DietTracker */ = {
 			isa = PBXGroup;
 			children = (
+				32D43F0D29411BAA00E6C4A1 /* DietTracker.entitlements */,
 				32A0EF842940DF4D0031EEFF /* DietTrackerApp.swift */,
-				32A0EF862940DF4D0031EEFF /* ContentView.swift */,
+				32D43F6A2942044900E6C4A1 /* Managers */,
+				32D43F65294203BA00E6C4A1 /* MealEntities */,
+				32D43F542942024B00E6C4A1 /* LocalReminders */,
+				32D43F4B2941FF4200E6C4A1 /* Enumerations&CustomTypes */,
+				32A0EFAE2940E6930031EEFF /* MainPage */,
 				32A0EF882940DF4E0031EEFF /* Assets.xcassets */,
 				32A0EF8A2940DF4E0031EEFF /* Preview Content */,
 			);
@@ -125,6 +167,60 @@
 				32A0EFA12940DF4E0031EEFF /* DietTrackerUITestsLaunchTests.swift */,
 			);
 			path = DietTrackerUITests;
+			sourceTree = "<group>";
+		};
+		32A0EFAE2940E6930031EEFF /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				32A0EF862940DF4D0031EEFF /* MainPage.swift */,
+				32A0EFAF2940E6B30031EEFF /* MainPageViewModel.swift */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		32D43F4B2941FF4200E6C4A1 /* Enumerations&CustomTypes */ = {
+			isa = PBXGroup;
+			children = (
+				32D43F52294200AA00E6C4A1 /* Time.swift */,
+				32D43F4C2941FF6800E6C4A1 /* LogStatus.swift */,
+				32D43F4E2941FFBB00E6C4A1 /* LocalDate.swift */,
+				32D43F502942000300E6C4A1 /* IntakePlanType.swift */,
+			);
+			path = "Enumerations&CustomTypes";
+			sourceTree = "<group>";
+		};
+		32D43F542942024B00E6C4A1 /* LocalReminders */ = {
+			isa = PBXGroup;
+			children = (
+				32D43F552942026D00E6C4A1 /* LocalNotificationsEconomist.swift */,
+				32D43F57294202B700E6C4A1 /* AfterMealReminder.swift */,
+				32D43F59294202CC00E6C4A1 /* MealReminder.swift */,
+				32D43F5B294202DE00E6C4A1 /* SecondReminder.swift */,
+				32D43F5D294202F000E6C4A1 /* FirstReminder.swift */,
+				32D43F5F2942030500E6C4A1 /* MealRemindersPreset.swift */,
+				32D43F612942035700E6C4A1 /* AllMealReminders.swift */,
+				32D43F632942036E00E6C4A1 /* RemindersSchedule.swift */,
+			);
+			path = LocalReminders;
+			sourceTree = "<group>";
+		};
+		32D43F65294203BA00E6C4A1 /* MealEntities */ = {
+			isa = PBXGroup;
+			children = (
+				32A0EFB12940E70F0031EEFF /* ActualPlan.swift */,
+				32D43F66294203FF00E6C4A1 /* FoodIntakePlan.swift */,
+				32D43F682942042600E6C4A1 /* FoodIntakeLog.swift */,
+			);
+			path = MealEntities;
+			sourceTree = "<group>";
+		};
+		32D43F6A2942044900E6C4A1 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				32D43F6B2942046300E6C4A1 /* DataManager.swift */,
+				32D43F6D2942047400E6C4A1 /* MealManager.swift */,
+			);
+			name = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +353,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32A0EF872940DF4D0031EEFF /* ContentView.swift in Sources */,
+				32A0EFB22940E70F0031EEFF /* ActualPlan.swift in Sources */,
+				32D43F562942026D00E6C4A1 /* LocalNotificationsEconomist.swift in Sources */,
+				32D43F67294203FF00E6C4A1 /* FoodIntakePlan.swift in Sources */,
+				32D43F4F2941FFBB00E6C4A1 /* LocalDate.swift in Sources */,
+				32D43F5E294202F000E6C4A1 /* FirstReminder.swift in Sources */,
+				32D43F4D2941FF6800E6C4A1 /* LogStatus.swift in Sources */,
+				32D43F692942042600E6C4A1 /* FoodIntakeLog.swift in Sources */,
+				32D43F512942000300E6C4A1 /* IntakePlanType.swift in Sources */,
+				32D43F5C294202DE00E6C4A1 /* SecondReminder.swift in Sources */,
+				32D43F5A294202CC00E6C4A1 /* MealReminder.swift in Sources */,
+				32D43F6E2942047400E6C4A1 /* MealManager.swift in Sources */,
+				32D43F642942036E00E6C4A1 /* RemindersSchedule.swift in Sources */,
+				32D43F58294202B700E6C4A1 /* AfterMealReminder.swift in Sources */,
+				32D43F53294200AA00E6C4A1 /* Time.swift in Sources */,
+				32A0EFB02940E6B30031EEFF /* MainPageViewModel.swift in Sources */,
+				32D43F6C2942046300E6C4A1 /* DataManager.swift in Sources */,
+				32A0EF872940DF4D0031EEFF /* MainPage.swift in Sources */,
 				32A0EF852940DF4D0031EEFF /* DietTrackerApp.swift in Sources */,
+				32D43F602942030500E6C4A1 /* MealRemindersPreset.swift in Sources */,
+				32D43F622942035700E6C4A1 /* AllMealReminders.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +528,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DietTracker/DietTracker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DietTracker/Preview Content\"";
@@ -443,6 +558,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DietTracker/DietTracker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DietTracker/Preview Content\"";
